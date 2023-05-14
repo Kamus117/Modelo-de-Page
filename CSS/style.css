@@ -185,9 +185,12 @@ h3{
 }
 
 .boton:hover {
-    color: var(--terciario);
     background-color: var(--primaro);
     transition-duration: 300ms;
+}
+
+.boton p:hover{
+    color: var(--terciario);
 }
 
 .hero-img {
