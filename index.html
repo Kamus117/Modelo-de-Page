@@ -5,19 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icons8-xbox-32.png" type="image/x-icon">
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Css -->
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>Navbar</title>
+    <title>Ejemplo Xbox</title>
 </head>
 
 <body>
     <header class="header">
         <img class="logo" src="https://download.logo.wine/logo/XCloud/XCloud-Logo.wine.png" alt="Logo">
         <nav class="navbar">
+            <input type="checkbox" id="toggle-menu" />
+            <label for="toggle-menu" class="bars-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
 
             <ul class="navbar-list">
                 <li><a href="#" class="navbar-link">Inicio</a></li>
@@ -26,6 +34,8 @@
             </ul>
         </nav>
     </header>
+
+    <!-- MAIN -->
     <div class="spacetop"></div>
     <main>
         <section class="presentacion-a container">
@@ -37,10 +47,10 @@
                 </p>
                 <div class="hero-botones">
                     <span class="boton">
-                        CALL TO ACTION
+                        <p class="boton-letras">INGRESAR</p>
                     </span>
                     <span class="boton">
-                        LEARN MORE
+                        <p class="boton-letras">INSCRIBIRSE</p>
                     </span>
                 </div>
 
@@ -49,16 +59,22 @@
 
             </div>
         </section>
+
+        <!-- Introducción -->
         <section class="presentacion-b container">
             <p>Breve introducción de tu empresa de desarrollo capturando la identidad en 3 o 4 línes. Contando a los
                 potenciales clientes que tipo de experiencia obtendrian si elijen. Descubrir los valores del quipo y los
                 trabajos que te inspiran.</p>
         </section>
+
+        <!-- Ventajas -->
+
         <section class="ventajas container">
             <h1>Our Advantajes</h1>
             <h3>Un lindo Slogan, causa una sensación de seguridad y confianza</h3>
 
             <div class="caja-beneficios">
+
                 <div class="beneficio">
                     <i class="fa-solid fa-store"></i>
                     <h2>Beneficio 1</h2>
@@ -81,6 +97,70 @@
 
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="cierre container">
+            <section class="footer-a">
+
+                <h1>Contact Us</h1>
+
+                <div class="contactos">
+                    <div class="contacto">
+                        <h2>Jupiter Argentina</h2>
+                        <span class="flex">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Calle Falsa 123</p>
+                        </span>
+
+                        <span class="flex">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>mail@mail.com</p>
+                        </span>
+
+                        <span class="flex">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>011 12121233</p>
+                        </span>
+                    </div>
+                    <div class="contacto">
+                        <h2>Saturno México</h2>
+                        <span class="flex">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Calle Falsa 123</p>
+                        </span>
+
+                        <span class="flex">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>mail@mail.com</p>
+                        </span>
+
+                        <span class="flex">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>011 12121233</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="redes">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+            </section>
+
+            <section class="footer-b">
+                <!-- imagen del footer -->
+            </section>
+
+
+        </section>
+            <div class="logo-final container">
+                <img src="https://es.logodownload.org/wp-content/uploads/2018/10/microsoft-logo1.png" alt="Logo de Microsoft">
+            </div>
+
+
+    </footer>
 </body>
 
 </html>
